@@ -9,7 +9,7 @@ META_MARK = 'META:'
 
 # put key names in order they appear in the meta row of the pipe csv
 meta_keys = [
-    'label',
+    'deck_label',
     'publisher',
     'id',
     'timestamp',
@@ -19,7 +19,7 @@ meta_keys = [
 
 # put key names in order they appear in the card rows of the pipe csv
 card_keys = [
-    'source_text',
+    'card_label',
     'dest_audio',
     'dest_language',
     'dest_txt'
