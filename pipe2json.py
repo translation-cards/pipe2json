@@ -38,7 +38,8 @@ cards = []
 
 def parse(cols, dest, key_dict):
     for count, val in enumerate(cols):
-        dest[key_dict[count]] = val.strip()
+        # tripple strip is kinda ugly, could be a regex match, but hey, it works
+        dest[key_dict[count]] = val.strip().strip('"\'').strip()
 
 
 def parse_card(cols):
