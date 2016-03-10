@@ -2,6 +2,7 @@
 
 import sys
 import codecs
+import json
 
 DELIN = '|'
 META_MARK = 'META:'
@@ -32,8 +33,10 @@ iso_map = {
     'urdu': 'ur'
 }
 
-meta = {}
-cards = []
+
+langs = []
+lang_map = {}
+root = {"languages":langs}
 
 
 def parse(cols, dest, key_dict):
@@ -46,46 +49,37 @@ def parse_card(cols):
     card = {}
     parse(cols, card, card_keys)
 
-    # convert language to iso code
+    # convert language to iso code and record
     try:
-        card['dest_language'] = iso_map[card['dest_language'].lower()]
+        iso_lang = iso_map[card['dest_language'].lower()]
+        del card['dest_language'] # don't need it anymore
+        lang = None
+        if iso_lang in lang_map.keys():
+            lang = langs[lang_map[iso_lang]]
+        else:
+            lang = {'iso_code':iso_lang, "cards":[]}
+            langs.append(lang)
+            lang_map[iso_lang]=len(langs)-1
+        lang['cards'].append(card)
     except:
         # leave it alone, language not in map
-        pass
-    cards.append(card)
+        sys.stderr.write('Could not find language: %s. Card skipped' % card['dest_language'])
 
 
-def convert():
+
+def read_pipe():
     # read in creating the two dicts
     for line in sys.stdin:
         cols = line.split(DELIN)
         if cols[0].startswith(META_MARK):
             # remove meta marker from first col
             cols[0] = cols[0].split(META_MARK)[1]
-            parse(cols, meta, meta_keys)
+            parse(cols, root, meta_keys)
         else:
             parse_card(cols)
 
-def write():
-    # write header
-    sys.stdout.write('{\n')
-
-    # write metas
-    for key, val in meta.items():
-        sys.stdout.write('"%s":"%s",\n' % (key, val))
-
-    # write cards
-    sys.stdout.write('"cards": [ \n')
-    for card_count, card in enumerate(cards):
-        sys.stdout.write('{\n')
-        for key_count, (key, val) in enumerate(card.items()):
-            sys.stdout.write('"%s":"%s"%s\n' %
-                             (key, val, (',' if key_count < len(card) - 1 else '')))
-        sys.stdout.write('}%s\n' % (',' if card_count < len(cards) - 1 else ''))
-    sys.stdout.write(']\n')
-
-    # write footer
-    sys.stdout.write('}\n')
+def write_json():
+    json.dump(root, sys.stdout, ensure_ascii=False, encoding="utf_8")
 
 
 
@@ -106,5 +100,5 @@ if __name__ == "__main__":
         sys.stderr.write("Usage: pipe2json <infile> <outfile>\n")
         sys.exit(-1)
 
-    convert()
-    write()
+    read_pipe()
+    write_json()
