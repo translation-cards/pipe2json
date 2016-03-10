@@ -1,368 +1,368 @@
 {
-    "languages": [
+  "languages": [
+    {
+      "cards": [
         {
-            "cards": [
-                {
-                    "dest_txt": "هل تفهم هذه اللغة؟",
-                    "source_text": "﻿Do you understand this language?",
-                    "dest_audio": "GQ16-ar.mp3"
-                },
-                {
-                    "dest_txt": "يمكنكم أن تشيروا إلى إن تريدون أن أكرر المعلومات",
-                    "source_text": "If you want the information repeated you can signal to me",
-                    "dest_audio": "G21-ar.mp3"
-                },
-                {
-                    "dest_txt": "ماسمك؟",
-                    "source_text": "What is your name?",
-                    "dest_audio": "GQ1-ar.mp3"
-                },
-                {
-                    "dest_txt": "كم يبلغ عدد الأشخاص المسافرين في مجموعتك؟",
-                    "source_text": "Where do you come from?",
-                    "dest_audio": "GQ2-ar.mp3"
-                },
-                {
-                    "dest_txt": "كم تبلغ من العمر؟",
-                    "source_text": "How old are you?",
-                    "dest_audio": "GQ3-ar.mp3"
-                },
-                {
-                    "dest_txt": "كم يبلغ عدد الأشخاص المسافرين في مجموعة أسرتك؟",
-                    "source_text": "How many people are traveling in your family group?",
-                    "dest_audio": "GQ4-ar.mp3"
-                },
-                {
-                    "dest_txt": "إحرصوا على أن يعرف أطفالكم مكان وجود أسرتكم في كافة الأوقات",
-                    "source_text": "Make sure your children know where the family group are at all times",
-                    "dest_audio": "FL8-ar.mp3"
-                },
-                {
-                    "dest_txt": "هل حصلتم على طعام وماء؟",
-                    "source_text": "Have you received food and water?",
-                    "dest_audio": "SQ1-ar.mp3"
-                },
-                {
-                    "dest_txt": "خيمة القهوة/الشاي السخن هناك",
-                    "source_text": "The hot tea/coffee tent is over there",
-                    "dest_audio": "S6-ar.mp3"
-                },
-                {
-                    "dest_txt": "المراحيض هناك",
-                    "source_text": "The toilets are over there",
-                    "dest_audio": "S3-ar.mp3"
-                },
-                {
-                    "dest_txt": "ثمة مراحيض للأشخاص ذوي الإعاقة",
-                    "source_text": "There are disabled access toilets",
-                    "dest_audio": "S4-ar.mp3"
-                },
-                {
-                    "dest_txt": "هل حصلتم على رعاية طبية؟",
-                    "source_text": "Have you received medical care?",
-                    "dest_audio": "SQ2-ar.mp3"
-                },
-                {
-                    "dest_txt": "هل تحناجون لأن يمكث أحدهم في الليل؟",
-                    "source_text": "Do you need somewhere to stay tonight?",
-                    "dest_audio": "SQ3-ar.mp3"
-                },
-                {
-                    "dest_txt": "يمكنك القاء هنا هذه الليلة مجاناً إن تريدون ذلك",
-                    "source_text": "If you would like to stay here tonight it is free to do so",
-                    "dest_audio": "S14-ar.mp3"
-                },
-                {
-                    "dest_txt": "هل حصلتم على حرام أو ملابس دافئة؟",
-                    "source_text": "Did you receive a blanket or warm clothing?",
-                    "dest_audio": "SQ4-ar.mp3"
-                },
-                {
-                    "dest_txt": "يتم توزيع الحرامات هناك",
-                    "source_text": "Blankets are distributed over there",
-                    "dest_audio": "S27-ar.mp3"
-                },
-                {
-                    "dest_txt": "يمكنكم أخذ ملابس وأحذية للأطفال من هناك",
-                    "source_text": "You can collect children's clothes and shoes over there",
-                    "dest_audio": "S12-ar.mp3"
-                },
-                {
-                    "dest_txt": "هل تشعرون ببرد شديد؟",
-                    "source_text": "Are you feeling very cold?",
-                    "dest_audio": "SQ5-ar.mp3"
-                },
-                {
-                    "dest_txt": "يمكنكم الاستحمام بمياه ساخنة هناك",
-                    "source_text": "You can take a warm shower over there",
-                    "dest_audio": "S5-ar.mp3"
-                },
-                {
-                    "dest_txt": "إن تريدون التحدث عن أي مشكلة أو أمر يثير القلق يمكننا أن نجد لكم مترجماً",
-                    "source_text": "If you would like to talk about any problems or concerns we can arrange for a translator",
-                    "dest_audio": "X15-ar.mp3"
-                },
-                {
-                    "dest_txt": "حددوا نقطة التقاء في هذا الموقع مع أطفالكم وأسرتكم في حال انفصلتم",
-                    "source_text": "Arrange a meeting point on this site with your children and family in case you get separated",
-                    "dest_audio": "FL9-ar.mp3"
-                },
-                {
-                    "dest_txt": "الرجاء التبليغ إذا وجدتم طفلاً ضائعاً إلى مركز الأسرة",
-                    "source_text": "If you find a child who is lost please report them to the children and families' center",
-                    "dest_audio": "FL16-ar.mp3"
-                },
-                {
-                    "dest_txt": "الاتصال اللاسلكي متوفر هنا مجاناً",
-                    "source_text": "There is free WIFI here",
-                    "dest_audio": "S1-ar.mp3"
-                }
-            ],
-            "iso_code": "ar"
-        },
+          "dest_txt": "هل تفهم هذه اللغة؟", 
+          "card_label": "﻿Do you understand this language?", 
+          "dest_audio": "GQ16-ar.mp3"
+        }, 
         {
-            "cards": [
-                {
-                    "dest_txt": "پي دي جبه باندي پوهيږي",
-                    "source_text": "Do you understand this language?",
-                    "dest_audio": "GQ16-ps.mp3"
-                },
-                {
-                    "dest_txt": "که تاسو علميت يا معلومات تکرارول غواړي، نو ماله اشاره يا نښه راکولے شي",
-                    "source_text": "If you want the information repeated you can signal to me",
-                    "dest_audio": "G21-ps.mp3"
-                },
-                {
-                    "dest_txt": "سته نامه سه ده?",
-                    "source_text": "What is your name?",
-                    "dest_audio": "GQ1-ps.mp3"
-                },
-                {
-                    "dest_txt": "د کوم ځګي نه راغلے يي?",
-                    "source_text": "Where do you come from?",
-                    "dest_audio": "GQ2-ps.mp3"
-                },
-                {
-                    "dest_txt": "د سو کالو يي?",
-                    "source_text": "How old are you?",
-                    "dest_audio": "GQ3-ps.mp3"
-                },
-                {
-                    "dest_txt": "د ټبر سومره کسان يا بنيادمان تاسو په سفر کښي يي?",
-                    "source_text": "How many people are traveling in your family group?",
-                    "dest_audio": "GQ4-ps.mp3"
-                },
-                {
-                    "dest_txt": "دا يقيني کړي چي ماشومان تا دا علم وي چي کوم ځائي کښي هر سعت د خاندان غنډه موجود وي",
-                    "source_text": "Make sure your children know where the family group are at all times",
-                    "dest_audio": "FL8-ps.mp3"
-                },
-                {
-                    "dest_txt": "تاسو سره اوبه او خوراک شته?",
-                    "source_text": "Have you received food and water?",
-                    "dest_audio": "SQ1-ps.mp3"
-                },
-                {
-                    "dest_txt": "د قهوه يا چائے تمبوک يا خيمه دلته کښې موجود ده",
-                    "source_text": "The hot tea/coffee tent is over there",
-                    "dest_audio": "S6-ps.mp3"
-                },
-                {
-                    "dest_txt": "تشنابونه يا توائيلت دلته کښي موجود دي",
-                    "source_text": "The toilets are over there",
-                    "dest_audio": "S3-ps.mp3"
-                },
-                {
-                    "dest_txt": "دالته کښي معزورو د پاره تشناب شته",
-                    "source_text": "There are disabled access toilets",
-                    "dest_audio": "S4-ps.mp3"
-                },
-                {
-                    "dest_txt": "تاسو سره دارو درمل شته?",
-                    "source_text": "Have you received medical care?",
-                    "dest_audio": "SQ2-ps.mp3"
-                },
-                {
-                    "dest_txt": "تاسو ته ضرورت شته چي د شپي پاتي کيدو د پاره يو ځايي?",
-                    "source_text": "Do you need somewhere to stay tonight?",
-                    "dest_audio": "SQ3-ps.mp3"
-                },
-                {
-                    "dest_txt": "که چري تاسو دالته کښي شپه تيرول غواړي نو دا بغير پيسو يا مفت دي",
-                    "source_text": "If you would like to stay here tonight it is free to do so",
-                    "dest_audio": "S14-ps.mp3"
-                },
-                {
-                    "dest_txt": "تاسو په لاس کړي دي شړي او ګرمي جامي?",
-                    "source_text": "Did you receive a blanket or warm clothing?",
-                    "dest_audio": "SQ4-ps.mp3"
-                },
-                {
-                    "dest_txt": "شړي دالته کښي تقسيميږي",
-                    "source_text": "Blankets are distributed over there",
-                    "dest_audio": "S27-ps.mp3"
-                },
-                {
-                    "dest_txt": "تاسو دالته کښي د ماشومانو د پاره جامي او بوټان په لاس کولے شي",
-                    "source_text": "You can collect children's clothes and shoes over there",
-                    "dest_audio": "S12-ps.mp3"
-                },
-                {
-                    "dest_txt": "ستاسو يخني کيږي?",
-                    "source_text": "Are you feeling very cold?",
-                    "dest_audio": "SQ5-ps.mp3"
-                },
-                {
-                    "dest_txt": "تاسو دالته کښي په ګرمو اوبو باندي تشناب کولے شي",
-                    "source_text": "You can take a warm shower over there",
-                    "dest_audio": "S5-ps.mp3"
-                },
-                {
-                    "dest_txt": "که تاسو چري خبري اتري کول غواړي د سفر باره کښي نو مونږ د يو ترجان بندوبست کولے شو",
-                    "source_text": "If you would like to talk about any problems or concerns we can arrange for a translator",
-                    "dest_audio": "X15-ps.mp3"
-                },
-                {
-                    "dest_txt": "په ځاي کښي يو ميټنګ بندوبست اوکړي د خپلو ماشومانو او خاندان سره که چري ممکن شي تاسو بيل بيل يا يو بل نه لري شي.",
-                    "source_text": "Arrange a meeting point on this site with your children and family in case you get separated",
-                    "dest_audio": "FL9-ps.mp3"
-                },
-                {
-                    "dest_txt": "که چري تاسو تا يو ماشوم ملاؤ شه چي ورک شوي وي، نو مهروباني اوکي چي دا رپورت کړي د ماشومانو يا خانداني سنتر ته.",
-                    "source_text": "If you find a child who is lost please report them to the children and families' center",
-                    "dest_audio": "FL16-ps.mp3"
-                },
-                {
-                    "dest_txt": "دلته کښي ازاد انترنت موجود دے",
-                    "source_text": "There is free WIFI here",
-                    "dest_audio": "S1-ps.mp3"
-                }
-            ],
-            "iso_code": "ps"
-        },
+          "dest_txt": "يمكنكم أن تشيروا إلى إن تريدون أن أكرر المعلومات", 
+          "card_label": "If you want the information repeated you can signal to me", 
+          "dest_audio": "G21-ar.mp3"
+        }, 
         {
-            "cards": [
-                {
-                    "dest_txt": "آیا این زبان را متوجه می شوید؟",
-                    "source_text": "Do you understand this language?",
-                    "dest_audio": "GQ16-fa.mp3"
-                },
-                {
-                    "dest_txt": "اگر می خواهید اطلاعات را دوباره تکرار کنم لطفا به من اشاره کنید",
-                    "source_text": "If you want the information repeated you can signal to me",
-                    "dest_audio": "G21-fa.mp3"
-                },
-                {
-                    "dest_txt": "نام شما چیست؟",
-                    "source_text": "What is your name?",
-                    "dest_audio": "GQ1-fa.mp3"
-                },
-                {
-                    "dest_txt": "اهل کجا هستید؟",
-                    "source_text": "Where do you come from?",
-                    "dest_audio": "GQ2-fa.mp3"
-                },
-                {
-                    "dest_txt": "چند سال دارید؟",
-                    "source_text": "How old are you?",
-                    "dest_audio": "GQ3-fa.mp3"
-                },
-                {
-                    "dest_txt": "چند نفر در گروه خانوادگی شما در سفر هستند؟",
-                    "source_text": "How many people are traveling in your family group?",
-                    "dest_audio": "GQ4-fa.mp3"
-                },
-                {
-                    "dest_txt": "مطمئن شوید که کودکان شما همیشه می دانند که گروه خانوادگی شما کجا می باشد",
-                    "source_text": "Make sure your children know where the family group are at all times",
-                    "dest_audio": "FL8-fa.mp3"
-                },
-                {
-                    "dest_txt": "آیا غذا و آب دریافت کرده اید؟",
-                    "source_text": "Have you received food and water?",
-                    "dest_audio": "SQ1-fa.mp3"
-                },
-                {
-                    "dest_txt": "چادر چای/قهوه گرم آن طرف است",
-                    "source_text": "The hot tea/coffee tent is over there",
-                    "dest_audio": "S6-fa.mp3"
-                },
-                {
-                    "dest_txt": "سرویس های بهداشتی آن طرف هستند",
-                    "source_text": "The toilets are over there",
-                    "dest_audio": "S3-fa.mp3"
-                },
-                {
-                    "dest_txt": "سرویس بهداشتی مخصوص افراد معلول وجود دارید",
-                    "source_text": "There are disabled access toilets",
-                    "dest_audio": "S4-fa.mp3"
-                },
-                {
-                    "dest_txt": "آیا مراقبت پزشکی دریافت کرده اید؟",
-                    "source_text": "Have you received medical care?",
-                    "dest_audio": "SQ2-fa.mp3"
-                },
-                {
-                    "dest_txt": "آیا امشب به جایی برای اقامت نیاز دارید؟",
-                    "source_text": "Do you need somewhere to stay tonight?",
-                    "dest_audio": "SQ3-fa.mp3"
-                },
-                {
-                    "dest_txt": "می توانید به صورت رایگان امشب اینجا اقامت کنید",
-                    "source_text": "If you would like to stay here tonight it is free to do so",
-                    "dest_audio": "S14-fa.mp3"
-                },
-                {
-                    "dest_txt": "آیا پتو یا لباس گرم دریافت کردید؟",
-                    "source_text": "Did you receive a blanket or warm clothing?",
-                    "dest_audio": "SQ4-fa.mp3"
-                },
-                {
-                    "dest_txt": "در آن طرف پتو توزیع می شود",
-                    "source_text": "Blankets are distributed over there",
-                    "dest_audio": "S27-fa.mp3"
-                },
-                {
-                    "dest_txt": "می توانید آن طرف لباس و کفش برای کودکان دریافت کنید",
-                    "source_text": "You can collect children's clothes and shoes over there",
-                    "dest_audio": "S12-fa.mp3"
-                },
-                {
-                    "dest_txt": "آیا احساس سرمای شدید می کنید؟",
-                    "source_text": "Are you feeling very cold?",
-                    "dest_audio": "SQ5-fa.mp3"
-                },
-                {
-                    "dest_txt": "می توانید آنجا دوش آب گرم بگیرید",
-                    "source_text": "You can take a warm shower over there",
-                    "dest_audio": "S5-fa.mp3"
-                },
-                {
-                    "dest_txt": "اگر مایلید درباره هرگونه نگرانی یا موضوعی صحبت کنید می توانیم یک مترجم فراهم کنیم",
-                    "source_text": "If you would like to talk about any problems or concerns we can arrange for a translator",
-                    "dest_audio": "X15-fa.mp3"
-                },
-                {
-                    "dest_txt": "در این مکان یک نقطه ملاقات را تعیین کنید تا در صورتی که از هم جدا شدید آنجا یکدیگر را پیدا کنید",
-                    "source_text": "Arrange a meeting point on this site with your children and family in case you get separated",
-                    "dest_audio": "FL9-fa.mp3"
-                },
-                {
-                    "dest_txt": "اگر کودکی را دیدید که گم شده است لطفا به مرکز کودکان و خانواده اطلاع دهید",
-                    "source_text": "If you find a child who is lost please report them to the children and families' center",
-                    "dest_audio": "FL16-fa.mp3"
-                },
-                {
-                    "dest_txt": "در اینجا اینترنت بیسیم رایگان وجود دارد",
-                    "source_text": "There is free WIFI here",
-                    "dest_audio": "S1-fa.mp3"
-                }
-            ],
-            "iso_code": "fa"
+          "dest_txt": "ماسمك؟", 
+          "card_label": "What is your name?", 
+          "dest_audio": "GQ1-ar.mp3"
+        }, 
+        {
+          "dest_txt": "كم يبلغ عدد الأشخاص المسافرين في مجموعتك؟", 
+          "card_label": "Where do you come from?", 
+          "dest_audio": "GQ2-ar.mp3"
+        }, 
+        {
+          "dest_txt": "كم تبلغ من العمر؟", 
+          "card_label": "How old are you?", 
+          "dest_audio": "GQ3-ar.mp3"
+        }, 
+        {
+          "dest_txt": "كم يبلغ عدد الأشخاص المسافرين في مجموعة أسرتك؟", 
+          "card_label": "How many people are traveling in your family group?", 
+          "dest_audio": "GQ4-ar.mp3"
+        }, 
+        {
+          "dest_txt": "إحرصوا على أن يعرف أطفالكم مكان وجود أسرتكم في كافة الأوقات", 
+          "card_label": "Make sure your children know where the family group are at all times", 
+          "dest_audio": "FL8-ar.mp3"
+        }, 
+        {
+          "dest_txt": "هل حصلتم على طعام وماء؟", 
+          "card_label": "Have you received food and water?", 
+          "dest_audio": "SQ1-ar.mp3"
+        }, 
+        {
+          "dest_txt": "خيمة القهوة/الشاي السخن هناك", 
+          "card_label": "The hot tea/coffee tent is over there", 
+          "dest_audio": "S6-ar.mp3"
+        }, 
+        {
+          "dest_txt": "المراحيض هناك", 
+          "card_label": "The toilets are over there", 
+          "dest_audio": "S3-ar.mp3"
+        }, 
+        {
+          "dest_txt": "ثمة مراحيض للأشخاص ذوي الإعاقة", 
+          "card_label": "There are disabled access toilets", 
+          "dest_audio": "S4-ar.mp3"
+        }, 
+        {
+          "dest_txt": "هل حصلتم على رعاية طبية؟", 
+          "card_label": "Have you received medical care?", 
+          "dest_audio": "SQ2-ar.mp3"
+        }, 
+        {
+          "dest_txt": "هل تحناجون لأن يمكث أحدهم في الليل؟", 
+          "card_label": "Do you need somewhere to stay tonight?", 
+          "dest_audio": "SQ3-ar.mp3"
+        }, 
+        {
+          "dest_txt": "يمكنك القاء هنا هذه الليلة مجاناً إن تريدون ذلك", 
+          "card_label": "If you would like to stay here tonight it is free to do so", 
+          "dest_audio": "S14-ar.mp3"
+        }, 
+        {
+          "dest_txt": "هل حصلتم على حرام أو ملابس دافئة؟", 
+          "card_label": "Did you receive a blanket or warm clothing?", 
+          "dest_audio": "SQ4-ar.mp3"
+        }, 
+        {
+          "dest_txt": "يتم توزيع الحرامات هناك", 
+          "card_label": "Blankets are distributed over there", 
+          "dest_audio": "S27-ar.mp3"
+        }, 
+        {
+          "dest_txt": "يمكنكم أخذ ملابس وأحذية للأطفال من هناك", 
+          "card_label": "You can collect children's clothes and shoes over there", 
+          "dest_audio": "S12-ar.mp3"
+        }, 
+        {
+          "dest_txt": "هل تشعرون ببرد شديد؟", 
+          "card_label": "Are you feeling very cold?", 
+          "dest_audio": "SQ5-ar.mp3"
+        }, 
+        {
+          "dest_txt": "يمكنكم الاستحمام بمياه ساخنة هناك", 
+          "card_label": "You can take a warm shower over there", 
+          "dest_audio": "S5-ar.mp3"
+        }, 
+        {
+          "dest_txt": "إن تريدون التحدث عن أي مشكلة أو أمر يثير القلق يمكننا أن نجد لكم مترجماً", 
+          "card_label": "If you would like to talk about any problems or concerns we can arrange for a translator", 
+          "dest_audio": "X15-ar.mp3"
+        }, 
+        {
+          "dest_txt": "حددوا نقطة التقاء في هذا الموقع مع أطفالكم وأسرتكم في حال انفصلتم", 
+          "card_label": "Arrange a meeting point on this site with your children and family in case you get separated", 
+          "dest_audio": "FL9-ar.mp3"
+        }, 
+        {
+          "dest_txt": "الرجاء التبليغ إذا وجدتم طفلاً ضائعاً إلى مركز الأسرة", 
+          "card_label": "If you find a child who is lost please report them to the children and families' center", 
+          "dest_audio": "FL16-ar.mp3"
+        }, 
+        {
+          "dest_txt": "الاتصال اللاسلكي متوفر هنا مجاناً", 
+          "card_label": "There is free WIFI here", 
+          "dest_audio": "S1-ar.mp3"
         }
-    ],
-    "publisher": "Deck Author",
-    "id": "unique-deck-id",
-    "timestamp": "12000",
-    "label": "Deck Name"
+      ], 
+      "iso_code": "ar"
+    }, 
+    {
+      "cards": [
+        {
+          "dest_txt": "پي دي جبه باندي پوهيږي", 
+          "card_label": "Do you understand this language?", 
+          "dest_audio": "GQ16-ps.mp3"
+        }, 
+        {
+          "dest_txt": "که تاسو علميت يا معلومات تکرارول غواړي، نو ماله اشاره يا نښه راکولے شي", 
+          "card_label": "If you want the information repeated you can signal to me", 
+          "dest_audio": "G21-ps.mp3"
+        }, 
+        {
+          "dest_txt": "سته نامه سه ده?", 
+          "card_label": "What is your name?", 
+          "dest_audio": "GQ1-ps.mp3"
+        }, 
+        {
+          "dest_txt": "د کوم ځګي نه راغلے يي?", 
+          "card_label": "Where do you come from?", 
+          "dest_audio": "GQ2-ps.mp3"
+        }, 
+        {
+          "dest_txt": "د سو کالو يي?", 
+          "card_label": "How old are you?", 
+          "dest_audio": "GQ3-ps.mp3"
+        }, 
+        {
+          "dest_txt": "د ټبر سومره کسان يا بنيادمان تاسو په سفر کښي يي?", 
+          "card_label": "How many people are traveling in your family group?", 
+          "dest_audio": "GQ4-ps.mp3"
+        }, 
+        {
+          "dest_txt": "دا يقيني کړي چي ماشومان تا دا علم وي چي کوم ځائي کښي هر سعت د خاندان غنډه موجود وي", 
+          "card_label": "Make sure your children know where the family group are at all times", 
+          "dest_audio": "FL8-ps.mp3"
+        }, 
+        {
+          "dest_txt": "تاسو سره اوبه او خوراک شته?", 
+          "card_label": "Have you received food and water?", 
+          "dest_audio": "SQ1-ps.mp3"
+        }, 
+        {
+          "dest_txt": "د قهوه يا چائے تمبوک يا خيمه دلته کښې موجود ده", 
+          "card_label": "The hot tea/coffee tent is over there", 
+          "dest_audio": "S6-ps.mp3"
+        }, 
+        {
+          "dest_txt": "تشنابونه يا توائيلت دلته کښي موجود دي", 
+          "card_label": "The toilets are over there", 
+          "dest_audio": "S3-ps.mp3"
+        }, 
+        {
+          "dest_txt": "دالته کښي معزورو د پاره تشناب شته", 
+          "card_label": "There are disabled access toilets", 
+          "dest_audio": "S4-ps.mp3"
+        }, 
+        {
+          "dest_txt": "تاسو سره دارو درمل شته?", 
+          "card_label": "Have you received medical care?", 
+          "dest_audio": "SQ2-ps.mp3"
+        }, 
+        {
+          "dest_txt": "تاسو ته ضرورت شته چي د شپي پاتي کيدو د پاره يو ځايي?", 
+          "card_label": "Do you need somewhere to stay tonight?", 
+          "dest_audio": "SQ3-ps.mp3"
+        }, 
+        {
+          "dest_txt": "که چري تاسو دالته کښي شپه تيرول غواړي نو دا بغير پيسو يا مفت دي", 
+          "card_label": "If you would like to stay here tonight it is free to do so", 
+          "dest_audio": "S14-ps.mp3"
+        }, 
+        {
+          "dest_txt": "تاسو په لاس کړي دي شړي او ګرمي جامي?", 
+          "card_label": "Did you receive a blanket or warm clothing?", 
+          "dest_audio": "SQ4-ps.mp3"
+        }, 
+        {
+          "dest_txt": "شړي دالته کښي تقسيميږي", 
+          "card_label": "Blankets are distributed over there", 
+          "dest_audio": "S27-ps.mp3"
+        }, 
+        {
+          "dest_txt": "تاسو دالته کښي د ماشومانو د پاره جامي او بوټان په لاس کولے شي", 
+          "card_label": "You can collect children's clothes and shoes over there", 
+          "dest_audio": "S12-ps.mp3"
+        }, 
+        {
+          "dest_txt": "ستاسو يخني کيږي?", 
+          "card_label": "Are you feeling very cold?", 
+          "dest_audio": "SQ5-ps.mp3"
+        }, 
+        {
+          "dest_txt": "تاسو دالته کښي په ګرمو اوبو باندي تشناب کولے شي", 
+          "card_label": "You can take a warm shower over there", 
+          "dest_audio": "S5-ps.mp3"
+        }, 
+        {
+          "dest_txt": "که تاسو چري خبري اتري کول غواړي د سفر باره کښي نو مونږ د يو ترجان بندوبست کولے شو", 
+          "card_label": "If you would like to talk about any problems or concerns we can arrange for a translator", 
+          "dest_audio": "X15-ps.mp3"
+        }, 
+        {
+          "dest_txt": "په ځاي کښي يو ميټنګ بندوبست اوکړي د خپلو ماشومانو او خاندان سره که چري ممکن شي تاسو بيل بيل يا يو بل نه لري شي.", 
+          "card_label": "Arrange a meeting point on this site with your children and family in case you get separated", 
+          "dest_audio": "FL9-ps.mp3"
+        }, 
+        {
+          "dest_txt": "که چري تاسو تا يو ماشوم ملاؤ شه چي ورک شوي وي، نو مهروباني اوکي چي دا رپورت کړي د ماشومانو يا خانداني سنتر ته.", 
+          "card_label": "If you find a child who is lost please report them to the children and families' center", 
+          "dest_audio": "FL16-ps.mp3"
+        }, 
+        {
+          "dest_txt": "دلته کښي ازاد انترنت موجود دے", 
+          "card_label": "There is free WIFI here", 
+          "dest_audio": "S1-ps.mp3"
+        }
+      ], 
+      "iso_code": "ps"
+    }, 
+    {
+      "cards": [
+        {
+          "dest_txt": "آیا این زبان را متوجه می شوید؟", 
+          "card_label": "Do you understand this language?", 
+          "dest_audio": "GQ16-fa.mp3"
+        }, 
+        {
+          "dest_txt": "اگر می خواهید اطلاعات را دوباره تکرار کنم لطفا به من اشاره کنید", 
+          "card_label": "If you want the information repeated you can signal to me", 
+          "dest_audio": "G21-fa.mp3"
+        }, 
+        {
+          "dest_txt": "نام شما چیست؟", 
+          "card_label": "What is your name?", 
+          "dest_audio": "GQ1-fa.mp3"
+        }, 
+        {
+          "dest_txt": "اهل کجا هستید؟", 
+          "card_label": "Where do you come from?", 
+          "dest_audio": "GQ2-fa.mp3"
+        }, 
+        {
+          "dest_txt": "چند سال دارید؟", 
+          "card_label": "How old are you?", 
+          "dest_audio": "GQ3-fa.mp3"
+        }, 
+        {
+          "dest_txt": "چند نفر در گروه خانوادگی شما در سفر هستند؟", 
+          "card_label": "How many people are traveling in your family group?", 
+          "dest_audio": "GQ4-fa.mp3"
+        }, 
+        {
+          "dest_txt": "مطمئن شوید که کودکان شما همیشه می دانند که گروه خانوادگی شما کجا می باشد", 
+          "card_label": "Make sure your children know where the family group are at all times", 
+          "dest_audio": "FL8-fa.mp3"
+        }, 
+        {
+          "dest_txt": "آیا غذا و آب دریافت کرده اید؟", 
+          "card_label": "Have you received food and water?", 
+          "dest_audio": "SQ1-fa.mp3"
+        }, 
+        {
+          "dest_txt": "چادر چای/قهوه گرم آن طرف است", 
+          "card_label": "The hot tea/coffee tent is over there", 
+          "dest_audio": "S6-fa.mp3"
+        }, 
+        {
+          "dest_txt": "سرویس های بهداشتی آن طرف هستند", 
+          "card_label": "The toilets are over there", 
+          "dest_audio": "S3-fa.mp3"
+        }, 
+        {
+          "dest_txt": "سرویس بهداشتی مخصوص افراد معلول وجود دارید", 
+          "card_label": "There are disabled access toilets", 
+          "dest_audio": "S4-fa.mp3"
+        }, 
+        {
+          "dest_txt": "آیا مراقبت پزشکی دریافت کرده اید؟", 
+          "card_label": "Have you received medical care?", 
+          "dest_audio": "SQ2-fa.mp3"
+        }, 
+        {
+          "dest_txt": "آیا امشب به جایی برای اقامت نیاز دارید؟", 
+          "card_label": "Do you need somewhere to stay tonight?", 
+          "dest_audio": "SQ3-fa.mp3"
+        }, 
+        {
+          "dest_txt": "می توانید به صورت رایگان امشب اینجا اقامت کنید", 
+          "card_label": "If you would like to stay here tonight it is free to do so", 
+          "dest_audio": "S14-fa.mp3"
+        }, 
+        {
+          "dest_txt": "آیا پتو یا لباس گرم دریافت کردید؟", 
+          "card_label": "Did you receive a blanket or warm clothing?", 
+          "dest_audio": "SQ4-fa.mp3"
+        }, 
+        {
+          "dest_txt": "در آن طرف پتو توزیع می شود", 
+          "card_label": "Blankets are distributed over there", 
+          "dest_audio": "S27-fa.mp3"
+        }, 
+        {
+          "dest_txt": "می توانید آن طرف لباس و کفش برای کودکان دریافت کنید", 
+          "card_label": "You can collect children's clothes and shoes over there", 
+          "dest_audio": "S12-fa.mp3"
+        }, 
+        {
+          "dest_txt": "آیا احساس سرمای شدید می کنید؟", 
+          "card_label": "Are you feeling very cold?", 
+          "dest_audio": "SQ5-fa.mp3"
+        }, 
+        {
+          "dest_txt": "می توانید آنجا دوش آب گرم بگیرید", 
+          "card_label": "You can take a warm shower over there", 
+          "dest_audio": "S5-fa.mp3"
+        }, 
+        {
+          "dest_txt": "اگر مایلید درباره هرگونه نگرانی یا موضوعی صحبت کنید می توانیم یک مترجم فراهم کنیم", 
+          "card_label": "If you would like to talk about any problems or concerns we can arrange for a translator", 
+          "dest_audio": "X15-fa.mp3"
+        }, 
+        {
+          "dest_txt": "در این مکان یک نقطه ملاقات را تعیین کنید تا در صورتی که از هم جدا شدید آنجا یکدیگر را پیدا کنید", 
+          "card_label": "Arrange a meeting point on this site with your children and family in case you get separated", 
+          "dest_audio": "FL9-fa.mp3"
+        }, 
+        {
+          "dest_txt": "اگر کودکی را دیدید که گم شده است لطفا به مرکز کودکان و خانواده اطلاع دهید", 
+          "card_label": "If you find a child who is lost please report them to the children and families' center", 
+          "dest_audio": "FL16-fa.mp3"
+        }, 
+        {
+          "dest_txt": "در اینجا اینترنت بیسیم رایگان وجود دارد", 
+          "card_label": "There is free WIFI here", 
+          "dest_audio": "S1-fa.mp3"
+        }
+      ], 
+      "iso_code": "fa"
+    }
+  ], 
+  "publisher": "Deck Author", 
+  "deck_label": "Deck Name", 
+  "id": "unique-deck-id", 
+  "timestamp": "12000"
 }
