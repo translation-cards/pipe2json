@@ -33,10 +33,9 @@ iso_map = {
     'urdu': 'ur'
 }
 
-
 langs = []
 lang_map = {}
-root = {"languages":langs}
+root = {"languages": langs}
 
 
 def parse(cols, dest, key_dict):
@@ -52,19 +51,18 @@ def parse_card(cols):
     # convert language to iso code and record
     try:
         iso_lang = iso_map[card['dest_language'].lower()]
-        del card['dest_language'] # don't need it anymore
+        del card['dest_language']  # don't need it anymore
         lang = None
         if iso_lang in lang_map.keys():
             lang = langs[lang_map[iso_lang]]
         else:
-            lang = {'iso_code':iso_lang, "cards":[]}
+            lang = {'iso_code': iso_lang, "cards": []}
             langs.append(lang)
-            lang_map[iso_lang]=len(langs)-1
+            lang_map[iso_lang] = len(langs) - 1
         lang['cards'].append(card)
     except:
         # leave it alone, language not in map
         sys.stderr.write('Could not find language: %s. Card skipped' % card['dest_language'])
-
 
 
 def read_pipe():
@@ -78,9 +76,9 @@ def read_pipe():
         else:
             parse_card(cols)
 
-def write_json():
-    json.dump(root, sys.stdout, ensure_ascii=False, encoding="utf_8")
 
+def write_json():
+    json.dump(root, sys.stdout, ensure_ascii=False, encoding="utf_8", indent=2)
 
 
 if __name__ == "__main__":
