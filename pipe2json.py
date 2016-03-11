@@ -40,6 +40,11 @@ lang_map = {}
 root = {"languages": langs}
 
 
+def iso_for_lang(lang):
+    low_lang = lang.lower()
+    return (iso_map[low_lang] if low_lang in iso_map else None)
+
+
 def parse(cols, dest, key_dict):
     for count, val in enumerate(cols):
         # tripple strip is kinda ugly, could be a regex match, but hey, it works
@@ -51,8 +56,8 @@ def parse_card(cols):
     parse(cols, card, card_keys)
 
     # convert language to iso code and record
-    try:
-        iso_lang = iso_map[card['dest_language'].lower()]
+    iso_lang = iso_for_lang(card['dest_language'])
+    if iso_lang is not None:
         del card['dest_language']  # don't need it anymore
         lang = None
         if iso_lang in lang_map.keys():
@@ -62,14 +67,12 @@ def parse_card(cols):
             langs.append(lang)
             lang_map[iso_lang] = len(langs) - 1
         lang['cards'].append(card)
-    except:
+    else:
         # leave it alone, language not in map
         sys.stderr.write('Could not find language: %s. Card skipped' % card['dest_language'])
 
 
 def read_pipe():
-    # set defaults
-    root[SOURCE_LANGUAGE_KEY] = DEFAULT_SOURCE_LANG
 
     # read in creating the two dicts
     for line in sys.stdin:
@@ -81,6 +84,11 @@ def read_pipe():
         else:
             parse_card(cols)
 
+    # fix up source lang
+    if SOURCE_LANGUAGE_KEY in root and iso_for_lang(root[SOURCE_LANGUAGE_KEY]) is not None:
+        root[SOURCE_LANGUAGE_KEY] = iso_for_lang(root[SOURCE_LANGUAGE_KEY])
+    else:
+        root[SOURCE_LANGUAGE_KEY] = DEFAULT_SOURCE_LANG
 
 
 def write_json():
