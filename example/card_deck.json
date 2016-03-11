@@ -1,4 +1,8 @@
 {
+  "publisher": "Deck Author", 
+  "deck_label": "Deck Name", 
+  "timestamp": "12000", 
+  "source_language": "en", 
   "languages": [
     {
       "cards": [
@@ -361,8 +365,5 @@
       "iso_code": "fa"
     }
   ], 
-  "publisher": "Deck Author", 
-  "deck_label": "Deck Name", 
-  "id": "unique-deck-id", 
-  "timestamp": "12000"
+  "id": "unique-deck-id"
 }

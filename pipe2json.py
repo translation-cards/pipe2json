@@ -6,6 +6,8 @@ import json
 
 DELIN = '|'
 META_MARK = 'META:'
+SOURCE_LANGUAGE_KEY = 'source_language'
+DEFAULT_SOURCE_LANG = 'en'
 
 # put key names in order they appear in the meta row of the pipe csv
 meta_keys = [
@@ -13,7 +15,7 @@ meta_keys = [
     'publisher',
     'id',
     'timestamp',
-    'source_language',
+    SOURCE_LANGUAGE_KEY,
     'locked'
 ]
 
@@ -66,6 +68,9 @@ def parse_card(cols):
 
 
 def read_pipe():
+    # set defaults
+    root[SOURCE_LANGUAGE_KEY] = DEFAULT_SOURCE_LANG
+
     # read in creating the two dicts
     for line in sys.stdin:
         cols = line.split(DELIN)
@@ -75,6 +80,7 @@ def read_pipe():
             parse(cols, root, meta_keys)
         else:
             parse_card(cols)
+
 
 
 def write_json():
